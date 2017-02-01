@@ -1,209 +1,235 @@
 # Java Lang Exceptions and its inheritance#
 
 Class: Exception(checked)
-* Throwable
- * Exception
+	Object
+		Throwable
+			Exception
 Interfaces:
 Serializable, 
 
 Class: RuntimeException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
+	Object
+		Throwable
+			Exception
+				RuntimeException
 Interfaces:
 Serializable, 
 
 Class: ArithmeticException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * ArithmeticException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					ArithmeticException
 Interfaces:
 Serializable, 
 
 Class: ArrayIndexOutOfBoundsException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IndexOutOfBoundsException
-    * ArrayIndexOutOfBoundsException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IndexOutOfBoundsException
+						ArrayIndexOutOfBoundsException
 Interfaces:
 Serializable, 
 
 Class: ArrayStoreException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * ArrayStoreException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					ArrayStoreException
 Interfaces:
 Serializable, 
 
 Class: ClassCastException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * ClassCastException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					ClassCastException
 Interfaces:
 Serializable, 
 
 Class: ClassNotFoundException(checked)
-* Throwable
- * Exception
-  * ReflectiveOperationException
-   * ClassNotFoundException
+	Object
+		Throwable
+			Exception
+				ReflectiveOperationException
+					ClassNotFoundException
 Interfaces:
 Serializable, 
 
 Class: CloneNotSupportedException(checked)
-* Throwable
- * Exception
-  * CloneNotSupportedException
+	Object
+		Throwable
+			Exception
+				CloneNotSupportedException
 Interfaces:
 Serializable, 
 
 Class: EnumConstantNotPresentException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * EnumConstantNotPresentException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					EnumConstantNotPresentException
 Interfaces:
 Serializable, 
 
 Class: IllegalAccessException(checked)
-* Throwable
- * Exception
-  * ReflectiveOperationException
-   * IllegalAccessException
+	Object
+		Throwable
+			Exception
+				ReflectiveOperationException
+					IllegalAccessException
 Interfaces:
 Serializable, 
 
 Class: IllegalArgumentException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IllegalArgumentException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IllegalArgumentException
 Interfaces:
 Serializable, 
 
 Class: IllegalMonitorStateException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IllegalMonitorStateException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IllegalMonitorStateException
 Interfaces:
 Serializable, 
 
 Class: IllegalStateException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IllegalStateException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IllegalStateException
 Interfaces:
 Serializable, 
 
 Class: IllegalThreadStateException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IllegalArgumentException
-    * IllegalThreadStateException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IllegalArgumentException
+						IllegalThreadStateException
 Interfaces:
 Serializable, 
 
 Class: IndexOutOfBoundsException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IndexOutOfBoundsException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IndexOutOfBoundsException
 Interfaces:
 Serializable, 
 
 Class: InstantiationException(checked)
-* Throwable
- * Exception
-  * ReflectiveOperationException
-   * InstantiationException
+	Object
+		Throwable
+			Exception
+				ReflectiveOperationException
+					InstantiationException
 Interfaces:
 Serializable, 
 
 Class: InterruptedException(checked)
-* Throwable
- * Exception
-  * InterruptedException
+	Object
+		Throwable
+			Exception
+				InterruptedException
 Interfaces:
 Serializable, 
 
 Class: NegativeArraySizeException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * NegativeArraySizeException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					NegativeArraySizeException
 Interfaces:
 Serializable, 
 
 Class: NoSuchFieldException(checked)
-* Throwable
- * Exception
-  * ReflectiveOperationException
-   * NoSuchFieldException
+	Object
+		Throwable
+			Exception
+				ReflectiveOperationException
+					NoSuchFieldException
 Interfaces:
 Serializable, 
 
 Class: NoSuchMethodException(checked)
-* Throwable
- * Exception
-  * ReflectiveOperationException
-   * NoSuchMethodException
+	Object
+		Throwable
+			Exception
+				ReflectiveOperationException
+					NoSuchMethodException
 Interfaces:
 Serializable, 
 
 Class: NullPointerException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * NullPointerException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					NullPointerException
 Interfaces:
 Serializable, 
 
 Class: NumberFormatException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IllegalArgumentException
-    * NumberFormatException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IllegalArgumentException
+						NumberFormatException
 Interfaces:
 Serializable, 
 
 Class: SecurityException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * SecurityException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					SecurityException
 Interfaces:
 Serializable, 
 
 Class: StringIndexOutOfBoundsException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * IndexOutOfBoundsException
-    * StringIndexOutOfBoundsException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					IndexOutOfBoundsException
+						StringIndexOutOfBoundsException
 Interfaces:
 Serializable, 
 
 Class: TypeNotPresentException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * TypeNotPresentException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					TypeNotPresentException
 Interfaces:
 Serializable, 
 
 Class: UnsupportedOperationException(unchecked)
-* Throwable
- * Exception
-  * RuntimeException
-   * UnsupportedOperationException
+	Object
+		Throwable
+			Exception
+				RuntimeException
+					UnsupportedOperationException
 Interfaces:
 Serializable, 
 

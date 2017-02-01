@@ -98,6 +98,7 @@ public final class InheritanceHelper {
 			list.add( clazz );
 			clazz = clazz.getSuperclass();
 		} while( clazz != Object.class );
+		list.add( clazz ); // Object.class
 	}
 	
 	/**
@@ -121,8 +122,8 @@ public final class InheritanceHelper {
 				( this.isChildOf( RuntimeException.class ) ? "(un" : "(" ) + "checked)" + "\n" );
 		for( int i = 0; i < extendsList.size(); i++ ) {
 			int index = extendsList.size() - i - 1;
-			sb.append( tab.toString() + "* " + extendsList.get( index ).getSimpleName() + "\n" );
-			tab.append( " " );
+			tab.append( "\t" );
+			sb.append( tab.toString() + extendsList.get( index ).getSimpleName() + "\n" );
 		}
 		sb.append( "Interfaces:\n" );
 		for( Class< ? > c : implementsSet ) {
