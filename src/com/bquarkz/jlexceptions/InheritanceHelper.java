@@ -129,7 +129,7 @@ public final class InheritanceHelper {
 		for( Class< ? > c : implementsSet ) {
 			sb.append( c.getSimpleName() + ", " );
 		}
-		sb.append( "- - - -" );
+		sb.append( " - - - -" );
 			
 		return sb.toString();
 	}
