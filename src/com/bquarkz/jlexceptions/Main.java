@@ -54,7 +54,7 @@ public class Main {
 		bWriter.write( "\n" );
 		for( Class< ? > c : classes ) {
 			InheritanceHelper helper = new InheritanceHelper( c );
-			bWriter.write( helper + "\n\n" );
+			bWriter.write( helper.toString() );
 		}
 		
 		bWriter.close();
