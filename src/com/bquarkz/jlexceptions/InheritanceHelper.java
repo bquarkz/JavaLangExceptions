@@ -125,7 +125,7 @@ public final class InheritanceHelper {
 			tab.append( "> " );
 			sb.append( tab.toString() + extendsList.get( index ).getSimpleName() + "\n" );
 		}
-		sb.append( "*___Interfaces:___\n" );
+		sb.append( "* ___Interfaces:___\n" );
 		for( Class< ? > c : implementsSet ) {
 			sb.append( c.getSimpleName() + ", " );
 		}
