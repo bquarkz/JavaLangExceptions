@@ -118,14 +118,14 @@ public final class InheritanceHelper {
 		StringBuilder sb = new StringBuilder();
 		StringBuilder tab = new StringBuilder();
 		
-		sb.append( "Class: " + classChild.getSimpleName() + 
-				( this.isChildOf( RuntimeException.class ) ? "(un" : "(" ) + "checked)" + "\n" );
+		sb.append( "___Class:___ " + classChild.getSimpleName() + 
+				( this.isChildOf( RuntimeException.class ) ? " (un" : "(" ) + "checked)" + "\n" );
 		for( int i = 0; i < extendsList.size(); i++ ) {
 			int index = extendsList.size() - i - 1;
 			tab.append( "> " );
 			sb.append( tab.toString() + extendsList.get( index ).getSimpleName() + "\n" );
 		}
-		sb.append( "Interfaces:\n" );
+		sb.append( "*___Interfaces:___\n" );
 		for( Class< ? > c : implementsSet ) {
 			sb.append( c.getSimpleName() + ", " );
 		}

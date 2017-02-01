@@ -1,235 +1,235 @@
 # Java Lang Exceptions and its inheritance#
 
-Class: Exception(checked)
+___Class:___ Exception(checked)
 > Object
 > > Throwable
 > > > Exception
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: RuntimeException(unchecked)
+___Class:___ RuntimeException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: ArithmeticException(unchecked)
+___Class:___ ArithmeticException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > ArithmeticException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: ArrayIndexOutOfBoundsException(unchecked)
+___Class:___ ArrayIndexOutOfBoundsException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IndexOutOfBoundsException
 > > > > > > ArrayIndexOutOfBoundsException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: ArrayStoreException(unchecked)
+___Class:___ ArrayStoreException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > ArrayStoreException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: ClassCastException(unchecked)
+___Class:___ ClassCastException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > ClassCastException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: ClassNotFoundException(checked)
+___Class:___ ClassNotFoundException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > ClassNotFoundException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: CloneNotSupportedException(checked)
+___Class:___ CloneNotSupportedException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > CloneNotSupportedException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: EnumConstantNotPresentException(unchecked)
+___Class:___ EnumConstantNotPresentException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > EnumConstantNotPresentException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: IllegalAccessException(checked)
+___Class:___ IllegalAccessException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > IllegalAccessException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: IllegalArgumentException(unchecked)
+___Class:___ IllegalArgumentException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalArgumentException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: IllegalMonitorStateException(unchecked)
+___Class:___ IllegalMonitorStateException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalMonitorStateException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: IllegalStateException(unchecked)
+___Class:___ IllegalStateException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalStateException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: IllegalThreadStateException(unchecked)
+___Class:___ IllegalThreadStateException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalArgumentException
 > > > > > > IllegalThreadStateException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: IndexOutOfBoundsException(unchecked)
+___Class:___ IndexOutOfBoundsException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IndexOutOfBoundsException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: InstantiationException(checked)
+___Class:___ InstantiationException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > InstantiationException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: InterruptedException(checked)
+___Class:___ InterruptedException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > InterruptedException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: NegativeArraySizeException(unchecked)
+___Class:___ NegativeArraySizeException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > NegativeArraySizeException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: NoSuchFieldException(checked)
+___Class:___ NoSuchFieldException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > NoSuchFieldException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: NoSuchMethodException(checked)
+___Class:___ NoSuchMethodException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > NoSuchMethodException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: NullPointerException(unchecked)
+___Class:___ NullPointerException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > NullPointerException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: NumberFormatException(unchecked)
+___Class:___ NumberFormatException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalArgumentException
 > > > > > > NumberFormatException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: SecurityException(unchecked)
+___Class:___ SecurityException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > SecurityException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: StringIndexOutOfBoundsException(unchecked)
+___Class:___ StringIndexOutOfBoundsException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > IndexOutOfBoundsException
 > > > > > > StringIndexOutOfBoundsException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: TypeNotPresentException(unchecked)
+___Class:___ TypeNotPresentException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > TypeNotPresentException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
-Class: UnsupportedOperationException(unchecked)
+___Class:___ UnsupportedOperationException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
 > > > > > UnsupportedOperationException
-Interfaces:
+*___Interfaces:___
 Serializable, 
 
