@@ -122,7 +122,7 @@ public final class InheritanceHelper {
 				( this.isChildOf( RuntimeException.class ) ? "(un" : "(" ) + "checked)" + "\n" );
 		for( int i = 0; i < extendsList.size(); i++ ) {
 			int index = extendsList.size() - i - 1;
-			tab.append( "\t" );
+			tab.append( "> " );
 			sb.append( tab.toString() + extendsList.get( index ).getSimpleName() + "\n" );
 		}
 		sb.append( "Interfaces:\n" );
