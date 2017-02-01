@@ -125,10 +125,11 @@ public final class InheritanceHelper {
 			tab.append( "> " );
 			sb.append( tab.toString() + extendsList.get( index ).getSimpleName() + "\n" );
 		}
-		sb.append( "* ___Interfaces:___\n" );
+		sb.append( "\n\n* ___Interfaces:___\n" );
 		for( Class< ? > c : implementsSet ) {
 			sb.append( c.getSimpleName() + ", " );
 		}
+		sb.append( "- - - -" );
 			
 		return sb.toString();
 	}

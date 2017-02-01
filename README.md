@@ -4,16 +4,20 @@ ___Class:___ Exception(checked)
 > Object
 > > Throwable
 > > > Exception
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ RuntimeException (unchecked)
 > Object
 > > Throwable
 > > > Exception
 > > > > RuntimeException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ ArithmeticException (unchecked)
 > Object
@@ -21,8 +25,10 @@ ___Class:___ ArithmeticException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > ArithmeticException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ ArrayIndexOutOfBoundsException (unchecked)
 > Object
@@ -31,8 +37,10 @@ ___Class:___ ArrayIndexOutOfBoundsException (unchecked)
 > > > > RuntimeException
 > > > > > IndexOutOfBoundsException
 > > > > > > ArrayIndexOutOfBoundsException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ ArrayStoreException (unchecked)
 > Object
@@ -40,8 +48,10 @@ ___Class:___ ArrayStoreException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > ArrayStoreException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ ClassCastException (unchecked)
 > Object
@@ -49,8 +59,10 @@ ___Class:___ ClassCastException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > ClassCastException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ ClassNotFoundException(checked)
 > Object
@@ -58,16 +70,20 @@ ___Class:___ ClassNotFoundException(checked)
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > ClassNotFoundException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ CloneNotSupportedException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > CloneNotSupportedException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ EnumConstantNotPresentException (unchecked)
 > Object
@@ -75,8 +91,10 @@ ___Class:___ EnumConstantNotPresentException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > EnumConstantNotPresentException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ IllegalAccessException(checked)
 > Object
@@ -84,8 +102,10 @@ ___Class:___ IllegalAccessException(checked)
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > IllegalAccessException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ IllegalArgumentException (unchecked)
 > Object
@@ -93,8 +113,10 @@ ___Class:___ IllegalArgumentException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalArgumentException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ IllegalMonitorStateException (unchecked)
 > Object
@@ -102,8 +124,10 @@ ___Class:___ IllegalMonitorStateException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalMonitorStateException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ IllegalStateException (unchecked)
 > Object
@@ -111,8 +135,10 @@ ___Class:___ IllegalStateException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > IllegalStateException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ IllegalThreadStateException (unchecked)
 > Object
@@ -121,8 +147,10 @@ ___Class:___ IllegalThreadStateException (unchecked)
 > > > > RuntimeException
 > > > > > IllegalArgumentException
 > > > > > > IllegalThreadStateException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ IndexOutOfBoundsException (unchecked)
 > Object
@@ -130,8 +158,10 @@ ___Class:___ IndexOutOfBoundsException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > IndexOutOfBoundsException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ InstantiationException(checked)
 > Object
@@ -139,16 +169,20 @@ ___Class:___ InstantiationException(checked)
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > InstantiationException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ InterruptedException(checked)
 > Object
 > > Throwable
 > > > Exception
 > > > > InterruptedException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ NegativeArraySizeException (unchecked)
 > Object
@@ -156,8 +190,10 @@ ___Class:___ NegativeArraySizeException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > NegativeArraySizeException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ NoSuchFieldException(checked)
 > Object
@@ -165,8 +201,10 @@ ___Class:___ NoSuchFieldException(checked)
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > NoSuchFieldException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ NoSuchMethodException(checked)
 > Object
@@ -174,8 +212,10 @@ ___Class:___ NoSuchMethodException(checked)
 > > > Exception
 > > > > ReflectiveOperationException
 > > > > > NoSuchMethodException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ NullPointerException (unchecked)
 > Object
@@ -183,8 +223,10 @@ ___Class:___ NullPointerException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > NullPointerException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ NumberFormatException (unchecked)
 > Object
@@ -193,8 +235,10 @@ ___Class:___ NumberFormatException (unchecked)
 > > > > RuntimeException
 > > > > > IllegalArgumentException
 > > > > > > NumberFormatException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ SecurityException (unchecked)
 > Object
@@ -202,8 +246,10 @@ ___Class:___ SecurityException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > SecurityException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ StringIndexOutOfBoundsException (unchecked)
 > Object
@@ -212,8 +258,10 @@ ___Class:___ StringIndexOutOfBoundsException (unchecked)
 > > > > RuntimeException
 > > > > > IndexOutOfBoundsException
 > > > > > > StringIndexOutOfBoundsException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ TypeNotPresentException (unchecked)
 > Object
@@ -221,8 +269,10 @@ ___Class:___ TypeNotPresentException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > TypeNotPresentException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
 ___Class:___ UnsupportedOperationException (unchecked)
 > Object
@@ -230,6 +280,8 @@ ___Class:___ UnsupportedOperationException (unchecked)
 > > > Exception
 > > > > RuntimeException
 > > > > > UnsupportedOperationException
+
+
 * ___Interfaces:___
-Serializable, 
+Serializable, - - - -
 
